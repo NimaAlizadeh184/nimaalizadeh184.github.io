@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Nima Alizadeh | Materials Scientist &amp; Polymer Engineer</title>
+  <meta name="description" content="Nima Alizadeh is a materials scientist and polymer engineer specializing in advanced polymers, composites, additive manufacturing, and sustainable high-temperature materials. PhD Auburn University. Former UCSB Postdoc.">
+  <meta name="keywords" content="Nima Alizadeh, polymer engineer, materials scientist, interpenetrating polymer networks, IPN, additive manufacturing, 3D printing, composites, Auburn University, UCSB, Saint-Gobain, photocurable, block copolymer">
+  <meta name="author" content="Nima Alizadeh">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://alizadeh-nima.com">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nima Alizadeh | Materials Scientist &amp; Polymer Engineer">
+  <meta property="og:description" content="Materials scientist with expertise in advanced polymers, composites, and additive manufacturing. 12+ journal publications.">
+  <meta property="og:url" content="https://alizadeh-nima.com">
+  <meta property="og:image" content="images/headshot.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Nima Alizadeh | Materials Scientist &amp; Polymer Engineer">
+  <meta name="twitter:description" content="Materials scientist with expertise in advanced polymers, composites, and additive manufacturing.">
+
+  <!-- Schema.org Person structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Nima Alizadeh",
+    "jobTitle": "Materials Scientist & Polymer Engineer",
+    "description": "Materials scientist specializing in polymer engineering, materials development, advanced manufacturing, and interpenetrating polymer networks.",
+    "email": "nimaalizadeh184@gmail.com",
+    "url": "https://alizadeh-nima.com",
+    "alumniOf": [
+      {"@type": "CollegeOrUniversity", "name": "Auburn University"},
+      {"@type": "CollegeOrUniversity", "name": "University of California, Santa Barbara"},
+      {"@type": "CollegeOrUniversity", "name": "University of Tehran"}
+    ],
+    "knowsAbout": ["Polymer Engineering", "Interpenetrating Polymer Networks", "Additive Manufacturing", "3D Printing", "Composite Materials", "Materials Characterization", "DLP Printing", "Block Copolymers"]
+  }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">N<span>A</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#publications" class="nav-link">Publications</a></li>
+        <li><a href="#leadership" class="nav-link">Leadership</a></li>
+        <li><a href="#contact" class="nav-link contact-btn">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section id="home" class="hero">
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-dots"></div>
+    <div class="container hero-container">
+      <div class="hero-photo-wrap">
+        <div class="hero-photo-ring">
+          <img src="images/headshot.jpg" alt="Nima Alizadeh - Materials Scientist & Polymer Engineer" class="hero-photo">
+        </div>
+      </div>
+      <div class="hero-content">
+        <p class="hero-eyebrow">Materials Scientist &amp; Polymer Engineer</p>
+        <h1 class="hero-name">Nima<br><span>Alizadeh</span></h1>
+        <p class="hero-tagline">
+          <span class="tag">Ph.D. Auburn</span>
+          <span class="tag">UCSB Postdoc</span>
+          <span class="tag">Saint-Gobain</span>
+          <span class="tag">12+ Publications</span>
+        </p>
+        <p class="hero-desc">Developing next-generation polymer materials for aerospace, biomedical, and semiconductor applications — from interpenetrating networks to 3D-printed functional systems.</p>
+        <div class="hero-actions">
+          <a href="#publications" class="btn btn-primary">View Research</a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+        <div class="hero-social">
+          <a href="https://www.linkedin.com/in/nima-alizadeh" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="mailto:nimaalizadeh184@gmail.com" aria-label="Email" class="social-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== STATS BAR ========== -->
+  <div class="stats-bar">
+    <div class="container stats-container">
+      <div class="stat-item">
+        <span class="stat-num" data-target="12">0</span><span class="stat-plus">+</span>
+        <span class="stat-label">Journal Publications</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="24">0</span><span class="stat-plus">+</span>
+        <span class="stat-label">Conference Presentations</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="8">0</span><span class="stat-plus">+</span>
+        <span class="stat-label">Years of Research</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="3">0</span>
+        <span class="stat-label">Degrees Earned</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">About Me</span>
+        <h2>Building the Materials of Tomorrow</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-visuals fade-in">
+          <div class="about-photo-frame">
+            <img src="images/headshot.jpg" alt="Nima Alizadeh" loading="lazy">
+            <div class="photo-accent"></div>
+          </div>
+          <div class="about-diagram">
+            <img src="images/ipn-diagram.png" alt="Graft-Interpenetrating Polymer Network diagram" loading="lazy">
+            <p class="diagram-caption">Graft-IPN — core research focus</p>
+          </div>
+        </div>
+        <div class="about-text fade-in">
+          <p class="bio-lead">I am a materials scientist with a strong background in <strong>polymer engineering</strong>, materials development, and advanced manufacturing.</p>
+          <p>Most recently, I worked as a Senior Research Engineer at Saint-Gobain ENC, developing sustainable high-temperature materials for aviation, aerospace, and automotive industries. Previously, as a postdoctoral scholar at <strong>UC Santa Barbara</strong>, I developed DLP 3D printing resins and designed block copolymer materials for semiconductor thin-film patterning with Tokyo Electron (TEL).</p>
+          <p>My <strong>Ph.D. and M.S.</strong> at Auburn University focused on interpenetrating polymer networks (IPNs) — a special polymer blend achieving 150% improvement in fracture toughness for transparent, high-impact structural materials, composites, and thermal energy storage.</p>
+          <div class="about-highlights">
+            <div class="highlight-card">
+              <div class="highlight-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+              </div>
+              <div>
+                <h4>Advanced Polymers</h4>
+                <p>IPN synthesis, block copolymers, photocurable resins</p>
+              </div>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              </div>
+              <div>
+                <h4>Additive Manufacturing</h4>
+                <p>DLP, SLA, FDM, and DIW 3D printing</p>
+              </div>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              </div>
+              <div>
+                <h4>High-Performance Materials</h4>
+                <p>Aerospace, automotive, and biomedical applications</p>
+              </div>
+            </div>
+          </div>
+          <div class="about-actions">
+            <a href="mailto:nimaalizadeh184@gmail.com" class="btn btn-primary">Get in Touch</a>
+            <a href="#" class="btn btn-outline" onclick="alert('Place your CV PDF file in this folder as \'cv.pdf\' to enable download.'); return false;">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== RESEARCH GALLERY ========== -->
+  <section class="research-gallery">
+    <div class="gallery-grid">
+      <div class="gallery-item gallery-item-wide">
+        <img src="images/research-applications.png" alt="IPN applications — Auburn University research: transparent panels, military, aerospace, carbon fiber composites" loading="lazy">
+        <div class="gallery-caption">IPN Applications — Transparent panels, aerospace, military &amp; composites</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/research-3d-printing.png" alt="3D printed hydrogel samples and DLP printing process" loading="lazy">
+        <div class="gallery-caption">DLP 3D Printing — Hydrogel actuators &amp; functional resins (UCSB)</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/shutterstock_387764182.jpg" alt="Structural analysis and materials characterization" loading="lazy">
+        <div class="gallery-caption">Structural Analysis &amp; Materials Characterization</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EDUCATION ========== -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">Education</span>
+        <h2>Academic Background</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-date">Jan. 2017 – May 2021</span>
+              <span class="timeline-badge">Ph.D.</span>
+            </div>
+            <h3>Auburn University</h3>
+            <p class="timeline-role">Ph.D., Polymer and Fiber Engineering</p>
+            <p class="timeline-gpa">GPA: 3.93 / 4.0</p>
+            <p class="timeline-detail"><em>Thesis:</em> Acrylic-polyurethane based graft-interpenetrating polymer networks for high-performance applications.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-date">Jan. 2017 – Dec. 2018</span>
+              <span class="timeline-badge">M.S.</span>
+            </div>
+            <h3>Auburn University</h3>
+            <p class="timeline-role">M.S., Polymer and Fiber Engineering</p>
+            <p class="timeline-gpa">GPA: 3.92 / 4.0</p>
+            <p class="timeline-detail"><em>Thesis:</em> Crosslinkable 3D printing inks for biomedical applications.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-date">Sept. 2011 – Feb. 2016</span>
+              <span class="timeline-badge">B.Sc.</span>
+            </div>
+            <h3>University of Tehran</h3>
+            <p class="timeline-role">B.Sc., Polymer Engineering</p>
+            <p class="timeline-detail"><em>Thesis:</em> Nano-biocomposites: properties, manufacturing processes, and applications in eco-friendly products for packaging and agriculture.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPERIENCE ========== -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">Experience</span>
+        <h2>Professional Journey</h2>
+      </div>
+      <div class="timeline timeline-exp">
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot accent-gold"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-date">Aug. 2024 – Present</span>
+              <span class="timeline-badge badge-gold">Current</span>
+            </div>
+            <h3>Independent Consulting &amp; Professional Development</h3>
+            <p class="timeline-role">Materials Scientist — AI-Driven Solutions &amp; Technical Consulting</p>
+            <ul class="timeline-bullets">
+              <li>Deliver freelance consulting in advanced polymers, manufacturing, and materials development for early-stage projects and R&amp;D teams.</li>
+              <li>Support AI model development in materials science through data annotation and technical validation at the intersection of materials and machine learning.</li>
+              <li>Pursuing certifications in Battery Technologies, PCB Fabrication, Python, Machine Learning Specialization (Stanford/DeepLearning.AI), Additive Manufacturing, and Deep Learning.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-date">Jan. 2024 – Jul. 2024</span>
+            </div>
+            <h3>Saint-Gobain Mobility – ENC</h3>
+            <p class="timeline-role">Senior Research Engineer I</p>
+            <ul class="timeline-bullets">
+              <li>Developed high-temperature polymer materials delivering <strong>&gt;30% improvement</strong> in thermal stability, wear resistance, and mechanical flexibility for sealing/insulation in aviation, aerospace, and automotive industries.</li>
+              <li>Hands-on experience with extrusion, injection molding, compression molding, Block-on-Ring, tensile testing, and other methods.</li>
+              <li>Conducted instrument troubleshooting, followed ASTM standards, and contributed to experimental planning and data analysis.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-date">June 2021 – Sept. 2023</span>
+            </div>
+            <h3>University of California, Santa Barbara</h3>
+            <p class="timeline-role">Postdoctoral Scholar — Materials Department</p>
+            <ul class="timeline-bullets">
+              <li>Developed DLP 3D printing resin enabling surface modification through multilayer polymer electrolytes for electronics, biomedical devices, sensors, and metal ion capture.</li>
+              <li>Designed and synthesized block copolymer materials for selective thin-film deposition for Tokyo Electron (TEL), enabling advanced semiconductor patterning strategies.</li>
+              <li>Utilized 3D printing, spin coating, FTIR, NMR, XPS, AFM, UV-Vis, and Ellipsometry.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-date">Jan. 2017 – May 2021</span>
+            </div>
+            <h3>Auburn University — Center for Polymers and Advanced Composites</h3>
+            <p class="timeline-role">Graduate Research Assistant (Ph.D.)</p>
+            <ul class="timeline-bullets">
+              <li>Synthesized high-performance acrylic-polyurethane graft-IPNs with <strong>150% improvement in fracture toughness</strong> and excellent cycling stability (25+ thermal cycles) for structural materials, composites, and thermal energy storage.</li>
+              <li>Processed polymers via compression molding, plastic molding, and 3D printing; characterized using DMA, tensile, DSC, TGA, rheology, and SEM.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-date">Jan. 2017 – Dec. 2018</span>
+            </div>
+            <h3>Auburn University — Center for Polymers and Advanced Composites</h3>
+            <p class="timeline-role">Graduate Research Assistant (M.S.)</p>
+            <ul class="timeline-bullets">
+              <li>Developed and optimized crosslinkable 3D printing inks for direct ink writing (DIW) technology with tunable rheology and high structural fidelity for tissue engineering, orthodontic devices, and organ modeling.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot timeline-dot-sm"></div>
+          <div class="timeline-card timeline-card-sm">
+            <div class="timeline-meta">
+              <span class="timeline-date">Jan. 2015 – Sept. 2015</span>
+            </div>
+            <h3>University of Tehran</h3>
+            <p class="timeline-role">Undergraduate Research Assistant</p>
+            <p class="timeline-detail">Studied properties, manufacturing processes, and applications of nano-biocomposites for eco-friendly packaging and agriculture products.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">Skills</span>
+        <h2>Technical Expertise</h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-card fade-in">
+          <div class="skill-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/></svg>
+          </div>
+          <h3>Materials Characterization</h3>
+          <div class="skill-tags">
+            <span>DMA</span><span>Tensile Testing</span><span>Rheometry</span><span>DSC</span>
+            <span>TGA</span><span>FTIR</span><span>NMR</span><span>XPS</span><span>XRD</span>
+            <span>SEM</span><span>AFM</span><span>UV-Vis</span><span>Ellipsometry</span>
+            <span>Block-on-Ring</span><span>Optical Microscopy</span>
+          </div>
+        </div>
+
+        <div class="skill-card fade-in">
+          <div class="skill-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <h3>Polymer Processing</h3>
+          <div class="skill-tags">
+            <span>Formulation</span><span>Injection Molding</span><span>Extrusion</span>
+            <span>Compression Molding</span><span>SLA</span><span>DLP</span><span>FDM</span>
+            <span>DIW 3D Printing</span><span>Spin Coating</span>
+          </div>
+        </div>
+
+        <div class="skill-card fade-in">
+          <div class="skill-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>Technical Software</h3>
+          <div class="skill-tags">
+            <span>ChemDraw</span><span>Mnova NMR</span><span>TA Universal Analysis</span>
+            <span>DataGraph</span><span>LaTeX</span><span>AutoCAD</span><span>Adobe Photoshop</span>
+          </div>
+        </div>
+
+        <div class="skill-card fade-in">
+          <div class="skill-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Programming</h3>
+          <div class="skill-tags">
+            <span>Python</span><span>MATLAB</span><span>C++</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Certifications -->
+      <div class="certifications fade-in">
+        <button class="cert-toggle" id="certToggle" aria-expanded="false">
+          <span>Certifications &amp; Continuing Education</span>
+          <svg class="cert-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="cert-list" id="certList">
+          <div class="cert-group">
+            <h4>Machine Learning &amp; AI</h4>
+            <ul>
+              <li>Advanced Learning Algorithms — Coursera, Stanford/DeepLearning.AI (Andrew Ng), Oct. 2025</li>
+              <li>Supervised Machine Learning: Regression and Classification — Coursera, Stanford/DeepLearning.AI (Andrew Ng), Jun. 2025</li>
+              <li>Generative AI For Everyone — Coursera, DeepLearning.AI (Andrew Ng), Sept. 2025</li>
+              <li>AI For Everyone — Coursera, DeepLearning.AI (Andrew Ng), Aug. 2025</li>
+            </ul>
+          </div>
+          <div class="cert-group">
+            <h4>Additive Manufacturing Specialization (5-Course Series)</h4>
+            <p class="cert-note">Coursera – Arizona State University (Dhruv Bhate), Aug. 2025</p>
+            <ul>
+              <li>Design for Additive Manufacturing</li>
+              <li>Selective Laser Sintering and Metal Laser Powder Bed Fusion</li>
+              <li>Material Jetting and Stereolithography</li>
+              <li>Material Extrusion</li>
+              <li>Introduction to Additive Manufacturing Processes</li>
+              <li>Filament — Bambu Lab Academy, Feb. 2026</li>
+            </ul>
+          </div>
+          <div class="cert-group">
+            <h4>Battery Technologies Specialization (5-Course Series)</h4>
+            <p class="cert-note">Coursera – Arizona State University (Arunachala Nadar Mada Kannan), Jul. 2025</p>
+            <ul>
+              <li>Lithium Based Batteries</li>
+              <li>Battery Comparison, Manufacturing, and Packaging</li>
+              <li>Batteries and Electric Vehicles</li>
+              <li>Zn and Ni Based Batteries</li>
+              <li>Primary and Secondary Batteries</li>
+            </ul>
+          </div>
+          <div class="cert-group">
+            <h4>Other Technical Certifications</h4>
+            <ul>
+              <li>Fundamentals of PCB Fabrication and Assembly — IPC EDGE, Apr. 2025</li>
+              <li>The Complete Python Bootcamp From Zero to Hero — Udemy (Jose Portilla), Apr. 2025</li>
+              <li>C++ — Sololearn, Jul. 2024</li>
+              <li>Introduction to MATLAB — Tehran Institute of Technology, Aug. 2016</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PUBLICATIONS ========== -->
+  <section id="publications" class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">Research</span>
+        <h2>Publications</h2>
+      </div>
+      <div class="pub-tabs fade-in">
+        <button class="pub-tab active" data-tab="journal">
+          Journal Articles <span class="pub-count">12</span>
+        </button>
+        <button class="pub-tab" data-tab="conference">
+          Conference Presentations <span class="pub-count">24</span>
+        </button>
+      </div>
+
+      <!-- Journal Publications -->
+      <div class="pub-panel active" id="tab-journal">
+        <div class="pub-list">
+
+          <div class="pub-card fade-in">
+            <span class="pub-num">1</span>
+            <div class="pub-body">
+              <p class="pub-citation"><strong>N. Alizadeh</strong>, E. Broughton, M. Auad, "Graft semi-interpenetrating polymer network phase change materials for thermal energy storage," <em>ACS Applied Polymer Materials</em> 2021, 3 (4), 1785–1794.</p>
+              <div class="pub-tags"><span>IPN</span><span>Thermal Energy Storage</span><span>ACS</span></div>
+            </div>
+          </div>
+
+          <div class="pub-card fade-in">
+            <span class="pub-num">2</span>
+            <div class="pub-body">
+              <p class="pub-citation"><strong>N. Alizadeh</strong>, E. Triggs, R. Farag, M. Auad, "Flexible acrylic-polyurethane based graft-interpenetrating polymer networks for high impact structural applications," <em>European Polymer Journal</em> 2021, 148, 110338.</p>
+              <div class="pub-tags"><span>IPN</span><span>Structural</span><span>Fracture Toughness</span></div>
+            </div>
+          </div>
+
+          <div class="pub-card fade-in">
+            <span class="pub-num">3</span>
+            <div class="pub-body">
+              <p class="pub-citation"><strong>N. Alizadeh</strong>, A. Celestine, M. Auad, V. Agrawal, "Mechanical characterization and modeling stress relaxation behavior of acrylic–polyurethane-based graft-interpenetrating polymer networks," <em>Polymer Engineering &amp; Science</em> 2021, 61 (5), 1299–1309.</p>
+              <div class="pub-tags"><span>IPN</span><span>Stress Relaxation</span><span>Mechanical Modeling</span></div>
+            </div>
+          </div>
+
+          <div class="pub-card fade-in">
+            <span class="pub-num">4</span>
+            <div class="pub-body">
+              <p class="pub-citation"><strong>N. Alizadeh</strong>, D. Thorne, M. Auad, A. Celestine, "Mechanical performance of vinyl ester-polyurethane interpenetrating polymer network composites," <em>Journal of Applied Polymer Science</em> 2021, 138 (19), 50411.</p>
+              <div class="pub-tags"><span>IPN</span><span>Composites</span><span>Vinyl Ester</span></div>
+            </div>
+          </div>
+
+          <div class="pub-card fade-in">
+            <span class="pub-num">5</span>
+            <div class="pub-body">
+              <p class="pub-citation"><strong>N. Alizadeh</strong>, M. Barde, M. Minkler, A. Celestine, V. Agrawal, B. Beckingham, M. Auad, "High-fracture-toughness acrylic-polyurethane-based graft-interpenetrating polymer networks for transparent applications," <em>Polymer International</em> 2020, 70 (5), 636–647.</p>
+              <div class="pub-tags"><span>IPN</span><span>Transparent Materials</span><span>Fracture Toughness</span></div>
+            </div>
+          </div>
+
+          <div class="pub-card fade-in">
+            <span class="pub-num">6</span>
+            <div class="pub-body">
+              <p class="pub-citation"><strong>N. Alizadeh</strong>, S. Bird, R. Mendez, K. Jajam, A. Alexander, H. Tippur, M. Auad, "Chapter 11 — Synthesis and characterization of high performance interpenetrating polymer networks with polyurethane and poly(methyl methacrylate)," in <em>Unsaturated Polyester Resins</em>, Elsevier: 2019, pp. 243–255.</p>
+              <div class="pub-tags"><span>Book Chapter</span><span>IPN</span><span>Elsevier</span></div>
+            </div>
+          </div>
+
+          <div class="pub-card fade-in">
+            <span class="pub-num">7</span>
+            <div class="pub-body">
+              <p class="pub-citation">Y. Wang, <strong>N. Alizadeh</strong>, M. Barde, M. Auad, B. Beckingham, "Poly(acrylic acid)-based hydrogel actuators fabricated via digital light projection additive manufacturing," <em>ACS Applied Polymer Materials</em> 2022, 4 (2), 971–979.</p>
+              <div class="pub-tags"><span>DLP</span><span>Hydrogel Actuators</span><span>ACS</span></div>
+            </div>
+          </div>
+
+          <div class="pub-card fade-in">
+            <span class="pub-num">8</span>
+            <div class="pub-body">
+              <p class="pub-citation">Y. Choi, S. Warnock, <strong>N. Alizadeh</strong>, P. Nguyen, D. Kottage, O. Phillips, Z. Chen, M. Chabinyc, C. Bates, "Acid-sensitive molecular glasses as removable thin-film protective layers," <em>Chemistry of Materials</em> 2023, 35 (23), 10078–10085.</p>
+              <div class="pub-tags"><span>Thin Films</span><span>Semiconductor</span><span>Block Copolymer</span></div>
+            </div>
+          </div>
+
+          <div class="pub-card fade-in">
+            <span class="pub-num">9</span>
+            <div class="pub-body">
+              <p class="pub-citation">J. Hinkle, A. Bansode, <strong>N. Alizadeh</strong>, A. Poudyal, J. Thornhill, A. Bass, X. Zhang, A. Adamczyk, T. Elder, M. Auad, "Nickel hydroxide growth on renewable activated carbon microfibers for the development of supercapacitors," <em>Journal of Applied Polymer Science</em> 2023, 140 (28), e54052.</p>
+              <div class="pub-tags"><span>Supercapacitors</span><span>Energy Storage</span></div>
+            </div>
+          </div>
+
+          <div class="pub-card fade-in">
+            <span class="pub-num">10</span>
+            <div class="pub-body">
+              <p class="pub-citation">M. Minkler, X. Hou, <strong>N. Alizadeh</strong>, M. Auad, A. Schindler, L. Beckingham, B. Beckingham, "Curing kinetics of tetrathiol-crosslinked diglycidyl ether of bisphenol A and poly(ethylene oxide)diglycidylether," <em>Materials Letters</em> 2022, 310, 131491.</p>
+              <div class="pub-tags"><span>Curing Kinetics</span><span>Epoxy</span></div>
+            </div>
+          </div>
+
+          <div class="pub-card fade-in">
+            <span class="pub-num">11</span>
+            <div class="pub-body">
+              <p class="pub-citation">P. Nguyen, D. Callan, E. Plunkett, M. Gruschka, <strong>N. Alizadeh</strong>, M. Landsman, G. Su, E. Gann, C. Bates, D. DeLongchamp, M. Chabinyc, "Resonant soft X-ray scattering reveals the distribution of dopants in semicrystalline conjugated polymers," <em>The Journal of Physical Chemistry B</em> 2024, 128 (50), 12597–12611.</p>
+              <div class="pub-tags"><span>X-ray Scattering</span><span>Conjugated Polymers</span></div>
+            </div>
+          </div>
+
+          <div class="pub-card fade-in">
+            <span class="pub-num">12</span>
+            <div class="pub-body">
+              <p class="pub-citation">J. Blankenship, A. Levi, D. Goldfeld, J. Self, <strong>N. Alizadeh</strong>, D. Chen, G. Fredrickson, C. Bates, "Asymmetric miktoarm star polymers as polyester thermoplastic elastomers," <em>Macromolecules</em> 2022, 55 (12), 4929–4936.</p>
+              <div class="pub-tags"><span>Star Polymers</span><span>Thermoplastic Elastomers</span><span>Macromolecules</span></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Conference Publications -->
+      <div class="pub-panel" id="tab-conference">
+        <div class="conf-list fade-in">
+          <ol>
+            <li><strong>N. Alizadeh</strong>, R. Broughton, M. Auad, "Acrylic-polyurethane based graft semi-interpenetrating polymer networks for phase change applications," <em>This is Research: Student Symposium 2021</em>, Auburn University, Mar. 2021.</li>
+            <li><strong>N. Alizadeh</strong>, R. Farag, M. Auad, "Flexible graft-interpenetrating polymer networks for transparent, high-performance applications," <em>SPE Automotive Composites Conference &amp; Exhibition (ACCE) 2020</em>, Sept. 2020.</li>
+            <li><strong>N. Alizadeh</strong>, V. Agrawal, A. Celestine, M. Auad, "Acrylic-polyurethane based graft-interpenetrating polymer networks for high impact structural applications," <em>American Chemical Society Fall 2020 Virtual Meeting</em>, Aug. 2020.</li>
+            <li><strong>N. Alizadeh</strong>, R. Farag, M. Auad, "Flexible acrylic-polyurethane based graft-IPNs for transparent applications," <em>American Chemical Society Fall 2020 Virtual Meeting</em>, Aug. 2020.</li>
+            <li><strong>N. Alizadeh</strong>, R. Farag, M. Auad, "Flexible graft-IPNs for high impact structural applications," <em>CPAC Graduate Summer Seminar Series 2020</em>, Auburn University, Aug. 2020.</li>
+            <li><strong>N. Alizadeh</strong>, V. Agrawal, A. Celestine, M. Auad, "High-performance acrylic-polyurethane based graft-IPNs for transparent applications," <em>This is Research: Student Symposium 2020</em>, Auburn University, Apr. 2020.</li>
+            <li><strong>N. Alizadeh</strong>, V. Agrawal, A. Celestine, M. Auad, "Novel graft-IPNs for protection applications," <em>Graduate Engineering Research Showcase 2019</em>, Auburn University, Nov. 2019.</li>
+            <li><strong>N. Alizadeh</strong>, V. Agrawal, A. Celestine, M. Auad, "Novel acrylic-polyurethane based graft-IPNs for advanced applications," <em>Chemical Engineering Open House 2019</em>, Auburn University, Nov. 2019.</li>
+            <li><strong>N. Alizadeh</strong>, V. Agrawal, A. Celestine, M. Auad, "Novel graft-IPNs for transparent applications," <em>CPAC Graduate Summer Seminar Series 2019</em>, Auburn University, Jun. 2019.</li>
+            <li><strong>N. Alizadeh</strong>, V. Agrawal, A. Celestine, M. Auad, "Novel acrylic-polyurethane based graft-IPNs for transparent applications," <em>This is Research: Student Symposium 2019</em>, Auburn University, Apr. 2019.</li>
+            <li><strong>N. Alizadeh</strong>, M. Auad, "3D bioprinting inks for UV-assisted direct ink writing technology," <em>American Chemical Society Spring 2019 National Meeting</em>, Orlando, FL, Mar. 2019.</li>
+            <li><strong>N. Alizadeh</strong>, V. Agrawal, A. Celestine, M. Auad, "Novel graft-IPNs for military applications," <em>Chemical Engineering Open House 2018</em>, Auburn University, Nov. 2018.</li>
+            <li><strong>N. Alizadeh</strong>, V. Agrawal, A. Celestine, M. Auad, "Novel acrylic-polyurethane based graft-IPNs for military applications," <em>Graduate Engineering Research Showcase 2018</em>, Auburn University, Oct. 2018.</li>
+            <li><strong>N. Alizadeh</strong>, V. Agrawal, A. Celestine, M. Auad, "Novel graft-IPNs consisting of polyurethane and acrylic copolymer," <em>CPAC Advisory Board Meeting 2018</em>, Auburn University, Oct. 2018.</li>
+            <li><strong>N. Alizadeh</strong>, M. Auad, "Novel 3D printing inks for biomedical applications," <em>Three Minute Thesis (3MT) Competition 2018</em>, Auburn University, Oct. 2018.</li>
+            <li><strong>N. Alizadeh</strong>, B. Cleary, M. Auad, "Cross-linkable hydrogels for 3D printing," <em>Thermal and Catalytic Sciences Symposium (TCS) 2018</em>, Auburn University, Oct. 2018.</li>
+            <li><strong>N. Alizadeh</strong>, V. Agrawal, A. Celestine, M. Auad, "Thermo-mechanical characterization of transparent acrylic-polyurethane based graft-IPNs," <em>NanoBio Summit 2018</em>, Montgomery, AL, Jul. 2018.</li>
+            <li><strong>N. Alizadeh</strong>, M. Auad, "Photo-curable inks for 3D printing," <em>CPAC Graduate Summer Seminar Series 2018</em>, Auburn University, Jul. 2018.</li>
+            <li><strong>N. Alizadeh</strong>, V. Agrawal, A. Celestine, M. Auad, "Graft-IPNs comprising polyurethane and acrylic copolymer," <em>This is Research: Student Symposium 2018</em>, Auburn University, Mar. 2018.</li>
+            <li><strong>N. Alizadeh</strong>, M. Auad, "Cross-linkable Hydrogels for 3D Bioprinting," <em>ACS Spring 2018 National Meeting</em>, New Orleans, LA, Mar. 2018.</li>
+            <li><strong>N. Alizadeh</strong>, V. Agrawal, A. Celestine, M. Auad, "Acrylic-polyurethane based Graft-Interpenetrating Polymer Networks," <em>ACS Spring 2018 National Meeting</em>, New Orleans, LA, Mar. 2018.</li>
+            <li><strong>N. Alizadeh</strong>, M. Auad, "Transparent acrylic-polyurethane based graft-IPNs," <em>Graduate Engineering Research Showcase 2017</em>, Auburn University, Nov. 2017.</li>
+            <li><strong>N. Alizadeh</strong>, M. Auad, "Graft-IPNs consisting of polyurethane and acrylic copolymer," <em>Chemical Engineering Open House 2017</em>, Auburn University, Apr. 2017.</li>
+            <li><strong>N. Alizadeh</strong>, M. Auad, "Thermo-mechanical characterization of acrylic-polyurethane based graft-IPNs," <em>This is Research: Student Symposium 2017</em>, Auburn University, Apr. 2017.</li>
+          </ol>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== LEADERSHIP & AWARDS ========== -->
+  <section id="leadership" class="section section-alt">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">Leadership</span>
+        <h2>Service &amp; Recognition</h2>
+      </div>
+
+      <div class="leadership-grid">
+
+        <div class="leadership-card fade-in">
+          <div class="leadership-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+          </div>
+          <h3>Graduate Student Council — President</h3>
+          <p class="leadership-org">Auburn University | May 2019 – May 2020</p>
+          <p>Served as graduate student representative on the Graduate Council and Faculty Senate for 4,000+ students. Presided over Executive Board meetings; approved all official GSC communications and financial forms.</p>
+        </div>
+
+        <div class="leadership-card fade-in">
+          <div class="leadership-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <h3>Graduate Student Council — Senator</h3>
+          <p class="leadership-org">Auburn University | Aug. 2018 – May 2019</p>
+          <p>Represented the chemical engineering department, operated as the collective voice for graduate students in university affairs and the Student Government Association (SGA).</p>
+        </div>
+
+        <div class="leadership-card fade-in">
+          <div class="leadership-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          </div>
+          <h3>Scientific Journal Reviewer</h3>
+          <p class="leadership-org">Ongoing</p>
+          <p>Serving as a peer reviewer for high-impact scientific journals including <em>Journal of Applied Polymer Science</em> and <em>Polymer International</em>.</p>
+        </div>
+
+        <div class="leadership-card fade-in">
+          <div class="leadership-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          </div>
+          <h3>GSC Events Committee Member</h3>
+          <p class="leadership-org">Auburn University | Aug. 2018 – May 2019</p>
+          <p>Coordinated networking and social events, the Outstanding Graduate Mentor program, and the "This is Research: Student Symposium."</p>
+        </div>
+
+      </div>
+
+      <!-- Awards -->
+      <div class="awards-section fade-in">
+        <h3 class="awards-title">Honors &amp; Awards</h3>
+        <div class="awards-grid">
+          <div class="award-item">
+            <div class="award-year">2020</div>
+            <div class="award-body">
+              <h4>Three Minutes Thesis (3MT) — Finalist</h4>
+              <p>Auburn University</p>
+            </div>
+          </div>
+          <div class="award-item">
+            <div class="award-year">2020</div>
+            <div class="award-body">
+              <h4>Finish in 5 — Finalist</h4>
+              <p>CEGS 5-minute presentation competition, Auburn University</p>
+            </div>
+          </div>
+          <div class="award-item">
+            <div class="award-year">2020</div>
+            <div class="award-body">
+              <h4>ACS Graduate Research &amp; Travel Fellowship</h4>
+              <p>Selected for ACS Spring 2020 National Meeting</p>
+            </div>
+          </div>
+          <div class="award-item">
+            <div class="award-year">2019</div>
+            <div class="award-body">
+              <h4>Three Minutes Thesis (3MT) — Finalist</h4>
+              <p>Auburn University</p>
+            </div>
+          </div>
+          <div class="award-item">
+            <div class="award-year">2019</div>
+            <div class="award-body">
+              <h4>Finish in 5 — Runner Up</h4>
+              <p>CEGS 5-minute presentation competition, Auburn University</p>
+            </div>
+          </div>
+          <div class="award-item">
+            <div class="award-year">2019</div>
+            <div class="award-body">
+              <h4>GSC Certificate of Appreciation</h4>
+              <p>Recognition of dedicated service to Auburn University GSC</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">Contact</span>
+        <h2>Let's Connect</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-left fade-in">
+          <blockquote class="contact-quote">
+            <p>"Believe you can and you're halfway there."</p>
+            <cite>— Theodore Roosevelt</cite>
+          </blockquote>
+          <p class="contact-intro">I'm open to research collaborations, consulting engagements, and exciting opportunities in materials science and polymer engineering.</p>
+          <div class="contact-links">
+            <a href="mailto:nimaalizadeh184@gmail.com" class="contact-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              nimaalizadeh184@gmail.com
+            </a>
+            <a href="https://www.linkedin.com/in/nima-alizadeh" target="_blank" rel="noopener noreferrer" class="contact-link">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn Profile
+            </a>
+          </div>
+        </div>
+        <form class="contact-form fade-in" id="contactForm">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            Send Message
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+          <p class="form-note">* This form opens your email client. Alternatively, reach out directly at <a href="mailto:nimaalizadeh184@gmail.com">nimaalizadeh184@gmail.com</a>.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p class="footer-copy">&copy; 2025 Nima Alizadeh. All rights reserved.</p>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/nima-alizadeh" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="mailto:nimaalizadeh184@gmail.com" aria-label="Email" class="social-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </a>
+      </div>
+    </div>
+    <a href="#home" class="back-to-top" id="backToTop" aria-label="Back to top">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+    </a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

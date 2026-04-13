@@ -1,0 +1,16 @@
+Save your images into this folder with these exact filenames:
+
+  headshot.jpg       — Your professional photo (used in Hero + About sections)
+  carbon-fiber.jpg   — The woven carbon fiber close-up (used as hero background)
+  ipn-diagram.jpg    — The Graft-IPN network diagram (used in About section)
+  mineral.jpg        — The purple/pink mineral crystals (optional decorative use)
+  3d-printer.jpg     — The 3D printer in action (optional decorative use)
+
+Tips:
+  - Compress images before uploading (use squoosh.app — free, in-browser)
+  - headshot.jpg: aim for ~200KB, aspect ratio 3:4 works best
+  - carbon-fiber.jpg: aim for ~400KB, landscape orientation
+  - ipn-diagram.jpg: use the white-background PNG/JPG version
+
+You can also add cv.pdf to the root folder (nima-portfolio/) to enable
+the "Download CV" button.
