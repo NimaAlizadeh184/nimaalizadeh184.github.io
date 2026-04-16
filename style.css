@@ -1398,3 +1398,96 @@ strong { color: var(--text-primary); font-weight: 600; }
   line-height: 1.7;
   margin-bottom: 16px;
 }
+
+/* ---------- NAV DROPDOWNS ---------- */
+.nav-dropdown { position: relative; }
+
+.nav-dropdown .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(6, 16, 31, 0.97);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  min-width: 220px;
+  padding: 8px 0;
+  z-index: 1001;
+  box-shadow: var(--shadow-lg);
+}
+
+.nav-dropdown:hover .dropdown-menu { display: block; }
+
+.nav-dropdown .dropdown-menu li { list-style: none; }
+
+.nav-dropdown .dropdown-menu a {
+  display: block;
+  padding: 10px 20px;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  transition: all var(--transition);
+}
+
+.nav-dropdown .dropdown-menu a:hover {
+  color: var(--teal);
+  background: var(--bg-card);
+  padding-left: 26px;
+}
+
+/* ---------- THESIS ABSTRACT ---------- */
+.thesis-toggle {
+  margin-top: 12px;
+  background: none;
+  border: 1px solid var(--teal);
+  color: var(--teal);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.thesis-toggle:hover {
+  background: var(--teal);
+  color: var(--bg-primary);
+}
+
+.thesis-abstract {
+  display: none;
+  margin-top: 14px;
+  padding: 16px;
+  background: var(--bg-secondary);
+  border-left: 3px solid var(--teal);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.thesis-abstract.open { display: block; }
+
+.thesis-abstract p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+.thesis-abstract p:last-child { margin-bottom: 0; }
+
+/* ---------- PROJECT IMAGES ---------- */
+.project-img {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+  margin: -28px -28px 20px -28px;
+  width: calc(100% + 56px);
+}
+
+.project-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.project-card:hover .project-img img { transform: scale(1.05); }

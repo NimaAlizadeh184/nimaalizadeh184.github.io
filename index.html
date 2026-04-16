@@ -62,8 +62,22 @@
       <ul class="nav-links" id="navLinks">
         <li><a href="#home" class="nav-link">Home</a></li>
         <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#education" class="nav-link">Education</a></li>
-        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li class="nav-dropdown">
+          <a href="#education" class="nav-link">Education ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="#education">Doctor of Philosophy</a></li>
+            <li><a href="#education">Master of Science</a></li>
+            <li><a href="#skills">Certifications</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </li>
+        <li class="nav-dropdown">
+          <a href="#experience" class="nav-link">Experience ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="#experience">Graduate Research Assistant (Ph.D.)</a></li>
+            <li><a href="#experience">Graduate Research Assistant (M.S.)</a></li>
+          </ul>
+        </li>
         <li><a href="#skills" class="nav-link">Skills</a></li>
         <li><a href="#publications" class="nav-link">Publications</a></li>
         <li><a href="#projects" class="nav-link">Projects</a></li>
@@ -242,6 +256,11 @@
             <p class="timeline-role">Ph.D., Polymer and Fiber Engineering</p>
             <p class="timeline-gpa">GPA: 3.93 / 4.0</p>
             <p class="timeline-detail"><em>Thesis:</em> Acrylic-polyurethane based graft-interpenetrating polymer networks for high-performance applications.</p>
+            <button class="thesis-toggle">▼ Read Abstract</button>
+            <div class="thesis-abstract">
+              <p>Acrylic-polyurethane based graft-IPNs were synthesized with excellent transparency and 120% improvement in fracture toughness compared to traditional transparent materials such as PMMA and Polystyrene. IPNs were also utilized as a matrix in carbon fiber-reinforced composites, demonstrating promising results for demanding materials applications.</p>
+              <p>The stress relaxation behavior of IPNs was modeled using the Prony series and a Generalized Maxwell model using MATLAB and FEniCS. In the final chapter, graft semi-IPNs with excellent thermal properties and shape stability were synthesized for thermal energy storage (TES) applications.</p>
+            </div>
           </div>
         </div>
 
@@ -256,6 +275,11 @@
             <p class="timeline-role">M.S., Polymer and Fiber Engineering</p>
             <p class="timeline-gpa">GPA: 3.92 / 4.0</p>
             <p class="timeline-detail"><em>Thesis:</em> Crosslinkable 3D printing inks for biomedical applications.</p>
+            <button class="thesis-toggle">▼ Read Abstract</button>
+            <div class="thesis-abstract">
+              <p>3D bioprinting could be used in various medical applications such as tissue engineering, organ printing, cell-based sensors, and surgical aids. Hydrogels with alginate and cellulose are good candidates for 3D bioprinting due to high biocompatibility, low toxicity, and suitable mechanical properties. Direct ink writing (DIW) technology was used, showing good structural fidelity.</p>
+              <p>For orthodontic applications and organ model printing, photocurable polymers were synthesized and printed using UV-assisted DIW. All polymeric systems show proper viscosity and shear-thinning behavior, with high structural fidelity and good thermal properties confirmed by DSC.</p>
+            </div>
           </div>
         </div>
 
@@ -664,16 +688,55 @@
         <h2>Selected Projects</h2>
       </div>
       <div class="projects-grid">
+
         <div class="project-card fade-in">
-          <div class="project-meta">
-            <span class="project-date">Fall 2018</span>
-          </div>
+          <div class="project-img"><img src="images/research-applications.png" alt="Aerospace composites" loading="lazy"></div>
+          <div class="project-meta"><span class="project-date">Fall 2018</span></div>
           <h3>Aerospace Applications of Composite Materials</h3>
-          <p>Studied the effect of fiber orientation and fiber length on the mechanical properties of carbon fiber reinforced composites with high-technology applications in military, aerospace, and automotive industries.</p>
-          <div class="pub-tags">
-            <span>Carbon Fiber</span><span>Composites</span><span>Aerospace</span><span>Mechanical Properties</span>
-          </div>
+          <p>Studied the effect of fiber orientation and fiber length on the mechanical properties of carbon fiber reinforced composites with applications in military, aerospace, and automotive industries.</p>
+          <div class="pub-tags"><span>Carbon Fiber</span><span>Composites</span><span>Aerospace</span></div>
         </div>
+
+        <div class="project-card fade-in">
+          <div class="project-img"><img src="images/polymer-structures.png" alt="Conducting polymers" loading="lazy"></div>
+          <div class="project-meta"><span class="project-date">Spring 2018</span></div>
+          <h3>Introduction to Conducting Polymers</h3>
+          <p>Reviewed electromagnetic shielding applications using conducting polymers (PANI, PPY, PEDOT) and corrosion protection properties. Studied tunable properties such as hydrophilicity and conductivity for anti-corrosion coatings.</p>
+          <div class="pub-tags"><span>Conducting Polymers</span><span>EM Shielding</span><span>Corrosion Protection</span></div>
+        </div>
+
+        <div class="project-card fade-in">
+          <div class="project-img"><img src="images/ipn-diagram.png" alt="Graft-IPN polymer network" loading="lazy"></div>
+          <div class="project-meta"><span class="project-date">Fall 2017</span></div>
+          <h3>Polymer Chemistry</h3>
+          <p>Synthesized high-performance acrylic-polyurethane based graft-interpenetrating polymer networks with no phase separation. Applications range from military and aerospace to commercial uses such as windshields.</p>
+          <div class="pub-tags"><span>IPN</span><span>Polymer Synthesis</span><span>Aerospace</span></div>
+        </div>
+
+        <div class="project-card fade-in">
+          <div class="project-img"><img src="images/shutterstock_2036361830.jpg" alt="Nanomaterials" loading="lazy"></div>
+          <div class="project-meta"><span class="project-date">Summer 2017</span></div>
+          <h3>Macroscale Assembly and Applications of Nanomaterials</h3>
+          <p>Reviewed properties and applications of polymer nano-composites based on layered silicates (PLS nanocomposites), exhibiting higher interfacial interaction compared to conventional composites.</p>
+          <div class="pub-tags"><span>Nanocomposites</span><span>Layered Silicates</span><span>Polymer Matrix</span></div>
+        </div>
+
+        <div class="project-card fade-in">
+          <div class="project-img"><img src="images/research-3d-printing.png" alt="3D printing" loading="lazy"></div>
+          <div class="project-meta"><span class="project-date">Spring 2017</span></div>
+          <h3>Polymer Processing</h3>
+          <p>Reviewed properties and applications of different additive manufacturing technologies with wide-ranging applications in biomedical, aerospace, and military industries.</p>
+          <div class="pub-tags"><span>Additive Manufacturing</span><span>3D Printing</span><span>Biomedical</span></div>
+        </div>
+
+        <div class="project-card fade-in">
+          <div class="project-img"><img src="images/stats-plot.png" alt="Statistical analysis" loading="lazy"></div>
+          <div class="project-meta"><span class="project-date">Spring 2019</span></div>
+          <h3>Experimental Statistics I</h3>
+          <p>Studied the effect of critic score and user score considering their interaction with different platforms, genres, and publishers on global videogame sales, showing strong linear correlation.</p>
+          <div class="pub-tags"><span>Statistics</span><span>Data Analysis</span><span>Linear Regression</span></div>
+        </div>
+
       </div>
     </div>
   </section>

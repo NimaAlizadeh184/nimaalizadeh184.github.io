@@ -194,3 +194,12 @@
   }
 
 })();
+
+// Thesis abstract toggles
+document.querySelectorAll('.thesis-toggle').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const abstract = btn.nextElementSibling;
+    abstract.classList.toggle('open');
+    btn.textContent = abstract.classList.contains('open') ? '▲ Hide Abstract' : '▼ Read Abstract';
+  });
+});
