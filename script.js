@@ -55,15 +55,57 @@
       navToggle.setAttribute('aria-expanded', isOpen);
     });
 
-    // Close on link click
+    // Close on non-dropdown link click
     navLinksEl.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', () => {
+      link.addEventListener('click', (e) => {
+        const parentDropdown = link.closest('.nav-dropdown');
+        if (parentDropdown && link.classList.contains('nav-link')) {
+          // Toggle dropdown instead of closing the menu on mobile
+          if (window.innerWidth <= 768) {
+            e.preventDefault();
+            const isOpen = parentDropdown.classList.toggle('open');
+            parentDropdown.querySelector('.nav-link').setAttribute('aria-expanded', isOpen);
+            return;
+          }
+        }
+        if (!parentDropdown || !link.closest('.dropdown-menu')) return;
         navLinksEl.classList.remove('open');
         navToggle.classList.remove('open');
         navToggle.setAttribute('aria-expanded', false);
+        document.querySelectorAll('.nav-dropdown').forEach(d => d.classList.remove('open'));
       });
     });
   }
+
+  /* ---------- DESKTOP DROPDOWN (click-toggle fallback) ---------- */
+  document.querySelectorAll('.nav-dropdown > .nav-link').forEach(trigger => {
+    trigger.addEventListener('click', (e) => {
+      if (window.innerWidth > 768) {
+        e.preventDefault();
+        const dropdown = trigger.closest('.nav-dropdown');
+        const isOpen = dropdown.classList.toggle('open');
+        // Close others
+        document.querySelectorAll('.nav-dropdown').forEach(d => {
+          if (d !== dropdown) d.classList.remove('open');
+        });
+        trigger.setAttribute('aria-expanded', isOpen);
+      }
+    });
+  });
+
+  // On desktop, also show on hover (keep existing CSS :hover) but sync the class
+  document.querySelectorAll('.nav-dropdown').forEach(dropdown => {
+    dropdown.addEventListener('mouseleave', () => {
+      if (window.innerWidth > 768) dropdown.classList.remove('open');
+    });
+  });
+
+  // Close desktop dropdowns when clicking outside
+  document.addEventListener('click', (e) => {
+    if (window.innerWidth > 768 && !e.target.closest('.nav-dropdown')) {
+      document.querySelectorAll('.nav-dropdown').forEach(d => d.classList.remove('open'));
+    }
+  });
 
   /* ---------- SCROLL FADE-IN ANIMATIONS ---------- */
   const fadeEls = document.querySelectorAll('.fade-in');
