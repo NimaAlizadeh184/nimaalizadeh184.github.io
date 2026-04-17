@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 876 480" role="img" aria-label="Periodic Table of Elements — polymer-relevant elements highlighted">
+<defs><style>
+.el rect{fill:rgba(255,255,255,0.04);stroke:rgba(0,191,165,0.18);stroke-width:.8}
+.el text{fill:rgba(255,255,255,0.5);font-family:'Courier New',Courier,monospace;font-weight:600;text-anchor:middle;dominant-baseline:central}
+.tl rect{fill:rgba(0,191,165,0.28);stroke:rgba(0,191,165,0.9);stroke-width:1.2}
+.tl text{fill:rgba(0,220,190,1);font-family:'Courier New',Courier,monospace;font-weight:700;text-anchor:middle;dominant-baseline:central}
+.td rect{fill:rgba(0,191,165,0.12);stroke:rgba(0,191,165,0.45);stroke-width:.9}
+.td text{fill:rgba(0,191,165,0.85);font-family:'Courier New',Courier,monospace;font-weight:600;text-anchor:middle;dominant-baseline:central}
+.gd rect{fill:rgba(240,192,64,0.18);stroke:rgba(240,192,64,0.75);stroke-width:1.2}
+.gd text{fill:rgba(240,192,64,1);font-family:'Courier New',Courier,monospace;font-weight:700;text-anchor:middle;dominant-baseline:central}
+.ph rect{fill:rgba(255,255,255,0.02);stroke:rgba(0,191,165,0.12);stroke-width:.5}
+.ph text{fill:rgba(255,255,255,0.28);font-family:'Courier New',Courier,monospace;font-weight:400;text-anchor:middle;dominant-baseline:central}
+</style></defs>
+
+<!-- ===== ROW 1 ===== -->
+<g class="tl" transform="translate(8,8)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="16">H</text></g>
+<g class="el" transform="translate(824,8)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">He</text></g>
+
+<!-- ===== ROW 2 ===== -->
+<g class="el" transform="translate(8,56)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Li</text></g>
+<g class="el" transform="translate(56,56)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Be</text></g>
+<g class="el" transform="translate(584,56)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="14">B</text></g>
+<g class="tl" transform="translate(632,56)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="16">C</text></g>
+<g class="tl" transform="translate(680,56)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="16">N</text></g>
+<g class="tl" transform="translate(728,56)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="16">O</text></g>
+<g class="td" transform="translate(776,56)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="14">F</text></g>
+<g class="el" transform="translate(824,56)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Ne</text></g>
+
+<!-- ===== ROW 3 ===== -->
+<g class="el" transform="translate(8,104)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Na</text></g>
+<g class="gd" transform="translate(56,104)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Mg</text></g>
+<g class="gd" transform="translate(584,104)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Al</text></g>
+<g class="td" transform="translate(632,104)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Si</text></g>
+<g class="td" transform="translate(680,104)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="14">P</text></g>
+<g class="td" transform="translate(728,104)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="14">S</text></g>
+<g class="td" transform="translate(776,104)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Cl</text></g>
+<g class="el" transform="translate(824,104)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Ar</text></g>
+
+<!-- ===== ROW 4 ===== -->
+<g class="el" transform="translate(8,152)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="14">K</text></g>
+<g class="el" transform="translate(56,152)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Ca</text></g>
+<g class="el" transform="translate(104,152)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Sc</text></g>
+<g class="gd" transform="translate(152,152)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Ti</text></g>
+<g class="el" transform="translate(200,152)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="14">V</text></g>
+<g class="el" transform="translate(248,152)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Cr</text></g>
+<g class="el" transform="translate(296,152)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Mn</text></g>
+<g class="el" transform="translate(344,152)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Fe</text></g>
+<g class="el" transform="translate(392,152)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Co</text></g>
+<g class="el" transform="translate(440,152)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Ni</text></g>
+<g class="el" transform="translate(488,152)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Cu</text></g>
+<g class="el" transform="translate(536,152)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Zn</text></g>
+<g class="el" transform="translate(584,152)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Ga</text></g>
+<g class="el" transform="translate(632,152)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Ge</text></g>
+<g class="el" transform="translate(680,152)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">As</text></g>
+<g class="el" transform="translate(728,152)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Se</text></g>
+<g class="td" transform="translate(776,152)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Br</text></g>
+<g class="el" transform="translate(824,152)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Kr</text></g>
+
+<!-- ===== ROW 5 ===== -->
+<g class="el" transform="translate(8,200)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Rb</text></g>
+<g class="el" transform="translate(56,200)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Sr</text></g>
+<g class="el" transform="translate(104,200)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="14">Y</text></g>
+<g class="gd" transform="translate(152,200)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Zr</text></g>
+<g class="el" transform="translate(200,200)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Nb</text></g>
+<g class="el" transform="translate(248,200)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Mo</text></g>
+<g class="el" transform="translate(296,200)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Tc</text></g>
+<g class="el" transform="translate(344,200)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Ru</text></g>
+<g class="el" transform="translate(392,200)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Rh</text></g>
+<g class="el" transform="translate(440,200)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Pd</text></g>
+<g class="el" transform="translate(488,200)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Ag</text></g>
+<g class="el" transform="translate(536,200)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Cd</text></g>
+<g class="el" transform="translate(584,200)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">In</text></g>
+<g class="el" transform="translate(632,200)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Sn</text></g>
+<g class="el" transform="translate(680,200)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Sb</text></g>
+<g class="el" transform="translate(728,200)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Te</text></g>
+<g class="td" transform="translate(776,200)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="14">I</text></g>
+<g class="el" transform="translate(824,200)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Xe</text></g>
+
+<!-- ===== ROW 6 ===== -->
+<g class="el" transform="translate(8,248)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Cs</text></g>
+<g class="el" transform="translate(56,248)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Ba</text></g>
+<g class="ph" transform="translate(104,248)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="9">Ln</text></g>
+<g class="el" transform="translate(152,248)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Hf</text></g>
+<g class="el" transform="translate(200,248)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Ta</text></g>
+<g class="el" transform="translate(248,248)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="14">W</text></g>
+<g class="el" transform="translate(296,248)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Re</text></g>
+<g class="el" transform="translate(344,248)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Os</text></g>
+<g class="el" transform="translate(392,248)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Ir</text></g>
+<g class="el" transform="translate(440,248)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Pt</text></g>
+<g class="el" transform="translate(488,248)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Au</text></g>
+<g class="el" transform="translate(536,248)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Hg</text></g>
+<g class="el" transform="translate(584,248)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Tl</text></g>
+<g class="el" transform="translate(632,248)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Pb</text></g>
+<g class="el" transform="translate(680,248)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Bi</text></g>
+<g class="el" transform="translate(728,248)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Po</text></g>
+<g class="el" transform="translate(776,248)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">At</text></g>
+<g class="el" transform="translate(824,248)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Rn</text></g>
+
+<!-- ===== ROW 7 ===== -->
+<g class="el" transform="translate(8,296)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Fr</text></g>
+<g class="el" transform="translate(56,296)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Ra</text></g>
+<g class="ph" transform="translate(104,296)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="9">An</text></g>
+<g class="el" transform="translate(152,296)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Rf</text></g>
+<g class="el" transform="translate(200,296)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Db</text></g>
+<g class="el" transform="translate(248,296)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Sg</text></g>
+<g class="el" transform="translate(296,296)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Bh</text></g>
+<g class="el" transform="translate(344,296)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Hs</text></g>
+<g class="el" transform="translate(392,296)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Mt</text></g>
+<g class="el" transform="translate(440,296)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Ds</text></g>
+<g class="el" transform="translate(488,296)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Rg</text></g>
+<g class="el" transform="translate(536,296)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Cn</text></g>
+<g class="el" transform="translate(584,296)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Nh</text></g>
+<g class="el" transform="translate(632,296)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Fl</text></g>
+<g class="el" transform="translate(680,296)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Mc</text></g>
+<g class="el" transform="translate(728,296)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Lv</text></g>
+<g class="el" transform="translate(776,296)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Ts</text></g>
+<g class="el" transform="translate(824,296)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Og</text></g>
+
+<!-- ===== LANTHANIDES (f-row 1, y=374) ===== -->
+<g class="el" transform="translate(104,374)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">La</text></g>
+<g class="el" transform="translate(152,374)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Ce</text></g>
+<g class="el" transform="translate(200,374)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Pr</text></g>
+<g class="el" transform="translate(248,374)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Nd</text></g>
+<g class="el" transform="translate(296,374)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Pm</text></g>
+<g class="el" transform="translate(344,374)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Sm</text></g>
+<g class="el" transform="translate(392,374)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Eu</text></g>
+<g class="el" transform="translate(440,374)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Gd</text></g>
+<g class="el" transform="translate(488,374)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Tb</text></g>
+<g class="el" transform="translate(536,374)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Dy</text></g>
+<g class="el" transform="translate(584,374)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Ho</text></g>
+<g class="el" transform="translate(632,374)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Er</text></g>
+<g class="el" transform="translate(680,374)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Tm</text></g>
+<g class="el" transform="translate(728,374)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Yb</text></g>
+<g class="el" transform="translate(776,374)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Lu</text></g>
+
+<!-- ===== ACTINIDES (f-row 2, y=422) ===== -->
+<g class="el" transform="translate(104,422)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Ac</text></g>
+<g class="el" transform="translate(152,422)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Th</text></g>
+<g class="el" transform="translate(200,422)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Pa</text></g>
+<g class="el" transform="translate(248,422)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="14">U</text></g>
+<g class="el" transform="translate(296,422)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Np</text></g>
+<g class="el" transform="translate(344,422)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Pu</text></g>
+<g class="el" transform="translate(392,422)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Am</text></g>
+<g class="el" transform="translate(440,422)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Cm</text></g>
+<g class="el" transform="translate(488,422)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Bk</text></g>
+<g class="el" transform="translate(536,422)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Cf</text></g>
+<g class="el" transform="translate(584,422)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Es</text></g>
+<g class="el" transform="translate(632,422)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Fm</text></g>
+<g class="el" transform="translate(680,422)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Md</text></g>
+<g class="el" transform="translate(728,422)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">No</text></g>
+<g class="el" transform="translate(776,422)"><rect width="44" height="44" rx="3"/><text x="22" y="22" font-size="12">Lr</text></g>
+
+</svg>
