@@ -12,8 +12,8 @@
   --border:        #d2d2d7;
   --border-light:  #e8e8ed;
 
-  --teal:          #00a693;
-  --teal-dim:      #008f7e;
+  --teal:          #00796b;
+  --teal-dim:      #00695c;
   --teal-glow:     rgba(0, 166, 147, 0.10);
   --gold:          #c8860a;
   --gold-dim:      rgba(200, 134, 10, 0.10);
@@ -423,14 +423,14 @@ strong { color: var(--text-primary); font-weight: 600; }
   font-family: 'Playfair Display', serif;
   font-size: 2.8rem;
   font-weight: 700;
-  color: var(--teal);
+  color: var(--text-primary);
   line-height: 1;
 }
 .stat-plus {
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
   font-weight: 700;
-  color: var(--teal);
+  color: var(--text-secondary);
   line-height: 1;
 }
 
@@ -1320,7 +1320,7 @@ strong { color: var(--text-primary); font-weight: 600; }
     position: fixed;
     top: var(--nav-height);
     left: 0; right: 0;
-    background: rgba(0,0,0,0.96);
+    background: rgba(255,255,255,0.97);
     backdrop-filter: blur(12px);
     flex-direction: column;
     padding: 20px 24px;
@@ -1442,13 +1442,13 @@ strong { color: var(--text-primary); font-weight: 600; }
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
-  background: rgba(6, 16, 31, 0.97);
+  background: #ffffff;
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   min-width: 220px;
   padding: 8px 0;
   z-index: 1001;
-  box-shadow: var(--shadow-lg);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
 }
 
 .nav-dropdown:hover .dropdown-menu,
@@ -1894,13 +1894,13 @@ strong { color: var(--text-primary); font-weight: 600; }
 }
 .stat-num {
   font-family: 'Inter', sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   color: var(--text-primary);
 }
 .stat-label {
-  color: var(--text-muted);
+  color: var(--text-secondary);
   font-size: 0.75rem;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.1em;
 }
 
 /* --- BUTTONS: pill-shaped --- */
